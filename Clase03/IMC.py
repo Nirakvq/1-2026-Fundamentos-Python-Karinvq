@@ -1,7 +1,4 @@
 
-print("Bienvenido a la aplicación de cálculo de IMC")
-
-
 nombre = input("Ingrese su nombre: ")
 apellidos = input("Ingrese su apellidos: ")
 edad = int(input("Ingrese su edad: "))
@@ -26,4 +23,4 @@ print("\n--- Resultado ---")
 print("Nombre completo:", nombre, apellidos)
 print("Edad:", edad)
 print("Su IMC es:", round(imc, 2))
-print("Rango:", rango)_
+print("Rango:", rango)

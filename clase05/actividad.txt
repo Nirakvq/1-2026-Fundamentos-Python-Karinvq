@@ -1,0 +1,9 @@
+Nombre: ithan
+Carnet: 85
+Nota: 90.0
+Nombre: ithan
+Carnet: 5555
+Nota: 85.0
+Nombre: kevin
+Carnet: 4444
+Nota: 90.0

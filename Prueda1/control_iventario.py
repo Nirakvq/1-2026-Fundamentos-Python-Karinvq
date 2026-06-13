@@ -26,7 +26,7 @@ while productos > 0:
         else:
             print("Gracias por usar el sistema de inventario.")
             break
-
+        
 print("\n" + "="*45)
 print(f"EL PRECIO TOTAL DE TODOS LOS PRODUCTOS ES: {suma_total_de_todo}")
 print("="*45)

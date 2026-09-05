@@ -1,0 +1,28 @@
+import pandas;
+class Pelicula:
+    def __init__(self, titulo,genero,duracion,
+                 presupuesto,calificacion):
+        self.titulo = titulo
+
+        self.genero = genero
+
+        self.duracion = duracion
+
+        self.presupuesto = presupuesto
+
+        self.calificacion = calificacion
+
+        self.mostrar = f"Titulo: {self.titulo}\nGenero: {self.genero}\nDuracion: {self.duracion}\nPresupuesto: {self.presupuesto}\nCalificacion: {self.calificacion}"
+
+object_01 = Pelicula("El Padrino","Drama",175,6000000,9.2)
+
+object_02 = Pelicula("Titanic","Romance",195,200000000,7.8)
+
+object_03 = Pelicula("Avatar","Ciencia Ficcion",162,237000000,7.8)
+
+object_04 = Pelicula("El Señor de los Anillos: El Retorno del Rey","Fantasia",201,94000000,8.9)
+
+object_05 = Pelicula("Forrest Gump","Drama",142,55000000,8.8)
+
+for i in [object_01,object_02,object_03,object_04,object_05]:
+    print(i.mostrar)
